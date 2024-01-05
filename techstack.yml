@@ -1,0 +1,825 @@
+repo_name: ManUtopiK/squid
+report_id: cead891652aa2bcd1cb7d2d71187bac2
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:22:08+00:00'
+requested_by: web-flow
+provider: github
+branch: master
+detected_tools_count: 58
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ManUtopiK/squid
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ManUtopiK/squid
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/workspace/package.json
+  detection_source: workspace/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-29 13:18:30.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
+  detection_source: graphql-server/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 14:56:02.000000000 Z
+- name: TypeORM
+  description: An ORM that can run in NodeJS and others
+  website_url: https://typeorm.io/
+  version: 0.2.41
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/7419/20165699.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 14:56:02.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
+  detection_source: graphql-server/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-01-01 15:13:09.000000000 Z
+- name: Heroku Postgres
+  description: Heroku's Database-as-a-Service. Based on the most powerful open-source
+    database, PostgreSQL
+  website_url: https://www.heroku.com/postgres
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: PostgreSQL as a Service
+  image_url: https://img.stackshare.io/service/2516/original.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/docker-compose.yml
+  detection_source: graphql-server/docker-compose.yml
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-15 16:20:41.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 14:56:02.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/docker-compose.yml
+  detection_source: substrate-archive/docker-compose.yml
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 20:42:53.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/openreader/fixtures/schema/3.txt
+  detection_source: openreader/fixtures/schema/3.txt
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-13 11:04:12.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ManUtopiK/squid
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 14:56:02.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ManUtopiK/squid
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/.github/workflows/bump.yml
+  detection_source: ".github/workflows/bump.yml"
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-01-03 11:58:41.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 9.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
+  detection_source: graphql-server/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/workspace/package.json
+  detection_source: workspace/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-29 13:18:30.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-processor/package.json
+  detection_source: substrate-processor/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-10 08:22:27.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/workspace/package.json
+  detection_source: workspace/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-29 13:18:30.000000000 Z
+- name: Apollo
+  description: GraphQL server for Express, Connect, Hapi, Koa and more
+  website_url: https://www.apollographql.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/5508/CyUH653y.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
+  detection_source: graphql-server/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/docker-compose.yml
+  detection_source: substrate-archive/docker-compose.yml
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 20:42:53.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/openreader/fixtures/schema/3.txt
+  detection_source: openreader/fixtures/schema/3.txt
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-13 11:04:12.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/package.json
+  detection_source: substrate-archive/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-29 13:18:30.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ManUtopiK/squid
+  detection_source: Repo Metadata
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 14:56:02.000000000 Z
+- name: "@oclif/plugin-help"
+  description: Standard help for oclif
+  package_url: https://www.npmjs.com/@oclif/plugin-help
+  version: 5.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16632/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: "@types/bn.js"
+  description: TypeScript definitions for bn.js
+  package_url: https://www.npmjs.com/@types/bn.js
+  version: 4.11.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18462/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/package.json
+  detection_source: substrate-archive/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: "@types/debug"
+  description: TypeScript definitions for debug
+  package_url: https://www.npmjs.com/@types/debug
+  version: 4.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/package.json
+  detection_source: substrate-archive/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
+  detection_source: graphql-server/package.json
+  last_updated_by: github-actions
+  last_updated_on: 2022-02-02 11:01:32.000000000 Z
+- name: "@types/ioredis"
+  description: TypeScript definitions for ioredis
+  package_url: https://www.npmjs.com/@types/ioredis
+  version: 4.28.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18175/default_0dba38f16e89e401bb4382c2d3f09881aac7fd70.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive-status-service/package.json
+  detection_source: substrate-archive-status-service/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.178
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/package.json
+  detection_source: substrate-archive/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
+  detection_source: graphql-server/package.json
+  last_updated_by: github-actions
+  last_updated_on: 2022-02-02 11:01:32.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 16.11.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: github-actions
+  last_updated_on: 2022-02-02 11:01:32.000000000 Z
+- name: "@types/node-fetch"
+  description: TypeScript definitions for node-fetch
+  package_url: https://www.npmjs.com/@types/node-fetch
+  version: 2.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16459/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: github-actions
+  last_updated_on: 2022-02-02 11:01:32.000000000 Z
+- name: "@types/pg"
+  description: TypeScript definitions for pg
+  package_url: https://www.npmjs.com/@types/pg
+  version: 8.6.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17947/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
+  detection_source: graphql-server/package.json
+  last_updated_by: github-actions
+  last_updated_on: 2022-02-02 11:01:32.000000000 Z
+- name: "@types/semver"
+  description: TypeScript definitions for semver
+  package_url: https://www.npmjs.com/@types/semver
+  version: 7.3.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/workspace/package.json
+  detection_source: workspace/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 8.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-typegen/package.json
+  detection_source: substrate-typegen/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-26 14:53:44.000000000 Z
+- name: apollo-server-express
+  description: Production-ready Node.js GraphQL server for Express and Connect
+  package_url: https://www.npmjs.com/apollo-server-express
+  version: 3.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17501/default_1d2902e8f9c84259702671591379572493b9009b.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
+  detection_source: graphql-server/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: bn.js
+  description: Big number implementation in pure javascript
+  package_url: https://www.npmjs.com/bn.js
+  version: 4.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16585/default_f7592cb347fae67ce7c7f221ddd5fd2cb0afc28f.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/package.json
+  detection_source: substrate-archive/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 17:14:09.000000000 Z
+- name: camelcase
+  description: 'Convert a dash/dot/underscore/space separated string to camelCase
+    or PascalCase: `foo-bar` → `fooBar`'
+  package_url: https://www.npmjs.com/camelcase
+  version: 6.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16559/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/util/package.json
+  detection_source: util/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 14:56:02.000000000 Z
+- name: cli-ux
+  description: Cli IO utilities
+  package_url: https://www.npmjs.com/cli-ux
+  version: 5.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17636/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-29 13:18:30.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/package.json
+  detection_source: substrate-archive/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-29 13:18:30.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 4.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/package.json
+  detection_source: substrate-archive/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-29 13:18:30.000000000 Z
+- name: delay
+  description: Delay a promise a specified amount of time
+  package_url: https://www.npmjs.com/delay
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16897/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/package.json
+  detection_source: substrate-archive/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 17:14:09.000000000 Z
+- name: expect
+  description: This package exports the `expect` function used in [Jest]
+  package_url: https://www.npmjs.com/expect
+  version: 27.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16110/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
+  detection_source: graphql-server/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-01-16 18:06:00.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
+  detection_source: graphql-server/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: figlet
+  description: Creates ASCII Art from text
+  package_url: https://www.npmjs.com/figlet
+  version: 1.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16424/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/package.json
+  detection_source: substrate-archive/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 17:14:09.000000000 Z
+- name: ioredis
+  description: A robust
+  package_url: https://www.npmjs.com/ioredis
+  version: 4.28.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16522/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive-status-service/package.json
+  detection_source: substrate-archive-status-service/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: latest-version
+  description: Get the latest version of an npm package
+  package_url: https://www.npmjs.com/latest-version
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17888/default_3bc64391130859f94a137a7dc6cb87cd54da546b.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/workspace/package.json
+  detection_source: workspace/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-01-01 11:20:25.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 14:56:02.000000000 Z
+- name: prom-client
+  description: Client for prometheus
+  package_url: https://www.npmjs.com/prom-client
+  version: 14.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18412/default_863e53b96f84b4092f7c0ba36b8cee4bf60d33fe.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-processor/package.json
+  detection_source: substrate-processor/package.json
+  last_updated_by: github-actions
+  last_updated_on: 2022-02-02 11:01:32.000000000 Z
+- name: query-string
+  description: Parse and stringify URL query strings
+  package_url: https://www.npmjs.com/query-string
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 7.3.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/workspace/package.json
+  detection_source: workspace/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-29 13:18:30.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 7.5.2
+- name: shortid
+  description: Amazingly short non-sequential url-friendly unique id generator
+  package_url: https://www.npmjs.com/shortid
+  version: 2.2.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16368/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/package.json
+  detection_source: substrate-archive/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 17:14:09.000000000 Z
+- name: simple-git
+  description: Simple GIT interface for node.js
+  package_url: https://www.npmjs.com/simple-git
+  version: 2.48.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16567/default_d6ff16957d0b119d673d5ec0eb21b08d8d5008f4.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-29 13:18:30.000000000 Z
+  vulnerabilities:
+  - name: Remote code execution in simple-git
+    cve_id: CVE-2022-25860
+    cve_url: https://github.com/advisories/GHSA-9w5j-4mwv-2wj8
+    detected_date: Jan 27
+    severity: critical
+    first_patched: 3.16.0
+  - name: simple-git vulnerable to Remote Code Execution when enabling the ext transport
+      protocol
+    cve_id: CVE-2022-25912
+    cve_url: https://github.com/advisories/GHSA-9p95-fxvg-qgq2
+    detected_date: Dec 8
+    severity: high
+    first_patched: 3.15.0
+  - name: Command injection in simple-git
+    cve_id: CVE-2022-24066
+    cve_url: https://github.com/advisories/GHSA-28xr-mwxg-3qc8
+    detected_date: Apr 13
+    severity: high
+    first_patched: 3.5.0
+  - name: Command injection in simple-git
+    cve_id: CVE-2022-24433
+    cve_url: https://github.com/advisories/GHSA-3f95-r44v-8mrg
+    detected_date: Mar 18
+    severity: high
+    first_patched: 3.3.0
+- name: websocket
+  description: Websocket Client &amp; Server Library implementing the WebSocket protocol
+    as specified in RFC 6455
+  package_url: https://www.npmjs.com/websocket
+  version: 1.0.34
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16782/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/rpc-client/package.json
+  detection_source: rpc-client/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2022-02-02 10:47:06.000000000 Z
