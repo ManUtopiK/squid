@@ -1,11 +1,12 @@
 repo_name: ManUtopiK/squid
 report_id: cead891652aa2bcd1cb7d2d71187bac2
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T18:37:19+00:00'
+timestamp: '2024-01-05T08:22:08+00:00'
 requested_by: web-flow
 provider: github
 branch: master
-detected_tools_count: 57
+detected_tools_count: 58
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ManUtopiK/squid
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ManUtopiK/squid
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -37,6 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/workspace/package.json
   detection_source: workspace/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-29 13:18:30.000000000 Z
@@ -64,6 +68,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
   detection_source: cli/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-11 14:56:02.000000000 Z
@@ -89,6 +94,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Query Languages
   image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
   detection_source: graphql-server/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2022-01-01 15:13:09.000000000 Z
@@ -101,6 +107,7 @@ tools:
   category: Data Stores
   sub_category: PostgreSQL as a Service
   image_url: https://img.stackshare.io/service/2516/original.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/docker-compose.yml
   detection_source: graphql-server/docker-compose.yml
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-15 16:20:41.000000000 Z
@@ -112,6 +119,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
   detection_source: cli/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-11 14:56:02.000000000 Z
@@ -124,6 +132,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/docker-compose.yml
   detection_source: substrate-archive/docker-compose.yml
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-11 20:42:53.000000000 Z
@@ -135,6 +144,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/openreader/fixtures/schema/3.txt
   detection_source: openreader/fixtures/schema/3.txt
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-13 11:04:12.000000000 Z
@@ -147,6 +157,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ManUtopiK/squid
   detection_source: Repo Metadata
 - name: Dotenv
   description: Loads environment variables from .env for Nodejs projects
@@ -157,6 +168,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
   detection_source: cli/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-11 14:56:02.000000000 Z
@@ -168,6 +180,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ManUtopiK/squid
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -177,6 +190,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/.github/workflows/bump.yml
   detection_source: ".github/workflows/bump.yml"
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2022-01-03 11:58:41.000000000 Z
@@ -203,6 +217,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/workspace/package.json
   detection_source: workspace/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-29 13:18:30.000000000 Z
@@ -216,6 +231,7 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-processor/package.json
   detection_source: substrate-processor/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-10 08:22:27.000000000 Z
@@ -227,6 +243,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/workspace/package.json
   detection_source: workspace/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-29 13:18:30.000000000 Z
@@ -239,6 +256,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/5508/CyUH653y.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/graphql-server/package.json
   detection_source: graphql-server/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2022-02-02 10:47:06.000000000 Z
@@ -251,6 +269,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/substrate-archive/docker-compose.yml
   detection_source: substrate-archive/docker-compose.yml
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-11 20:42:53.000000000 Z
@@ -262,6 +281,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/openreader/fixtures/schema/3.txt
   detection_source: openreader/fixtures/schema/3.txt
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-13 11:04:12.000000000 Z
@@ -287,6 +307,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ManUtopiK/squid
   detection_source: Repo Metadata
 - name: chalk
   description: terminal colors
@@ -294,6 +315,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
   detection_source: cli/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2021-12-11 14:56:02.000000000 Z
@@ -508,6 +530,20 @@ tools:
   detection_source: util/package.json
   last_updated_by: Eldar Gabdullin
   last_updated_on: 2022-02-02 10:47:06.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ManUtopiK/squid/blob/master/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Eldar Gabdullin
+  last_updated_on: 2021-12-11 14:56:02.000000000 Z
 - name: cli-ux
   description: Cli IO utilities
   package_url: https://www.npmjs.com/cli-ux
