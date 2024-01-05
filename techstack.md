@@ -62,7 +62,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ManUtopiK/squid](https://github.com/ManUtopiK/squid)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|57<br/>Tools used|12/14/23 <br/>Report generated|
+|58<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -297,9 +297,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (32)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (33)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (32)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (33)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -318,6 +318,7 @@ Full tech stack [here](/techstack.md)
 |[apollo-server-express](https://www.npmjs.com/apollo-server-express)|v3.6.2|02/02/22|Eldar Gabdullin |MIT|N/A|
 |[bn.js](https://www.npmjs.com/bn.js)|v4.12.0|12/11/21|Eldar Gabdullin |MIT|N/A|
 |[camelcase](https://www.npmjs.com/camelcase)|v6.3.0|02/02/22|Eldar Gabdullin |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v4.1.2|12/11/21|Eldar Gabdullin |MIT|N/A|
 |[cli-ux](https://www.npmjs.com/cli-ux)|v5.6.7|12/29/21|Eldar Gabdullin |MIT|N/A|
 |[commander](https://www.npmjs.com/commander)|v8.3.0|12/29/21|Eldar Gabdullin |MIT|N/A|
 |[debug](https://www.npmjs.com/debug)|v4.3.3|12/29/21|Eldar Gabdullin |MIT|N/A|
